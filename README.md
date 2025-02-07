@@ -1,6 +1,37 @@
 # maschine-plus-create-previews
 
-This script scans a directory for audio files and generates 4-second preview clips in OGG format using `ffmpeg`. It supports various audio file formats and provides a progress bar and logging functionality.
+## Maschine+ Prehear Function
+
+The Maschine+ requires a `.preview` hidden folder containing `.ogg` files of the same name as the audio files in the parent folder. This is necessary for the "Prehear" function to work as a user browses through sounds.
+
+### Folder Structure for Prehear
+
+Before running the script:
+
+```
+Audio Files Directory
+├── file1.wav
+├── file2.aif
+├── file3.mp3
+└── file4.m4a
+```
+
+After running the script:
+
+```
+Audio Files Directory
+├── file1.wav
+├── file2.aif
+├── file3.mp3
+├── file4.m4a
+└── .preview
+    ├── file1.ogg
+    ├── file2.ogg
+    ├── file3.ogg
+    └── file4.ogg
+```
+
+The `.preview` folder will be created automatically by the script, and it will contain the generated `.ogg` preview files.
 
 ## Prerequisites
 

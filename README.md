@@ -1,5 +1,8 @@
 # maschine-plus-create-previews
 
+> [!WARNING]  
+> Copy the folders you want to test this with to a new location. Run the script on these test folders and check the output. Do not run this script directly on the entire Maschine+ SD card. Only use this on your own user content on your computer and then transfer the files to the Maschine+ SD card.
+
 ## Maschine+ Prehear Function
 
 The Maschine+ requires a `.preview` hidden folder containing `.ogg` files of the same name as the audio files in the parent folder. This is necessary for the "Prehear" function to work as a user browses through sounds.

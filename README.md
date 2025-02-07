@@ -48,7 +48,7 @@ The `.preview` folder will be created automatically by the script, and it will c
 Run the script with the directory you want to scan as an argument. If no directory is provided, it defaults to the current directory.
 
 ```sh
-chmod +x process.ch
+chmod +x process.sh
 ./process.sh [directory]
 ```
 
